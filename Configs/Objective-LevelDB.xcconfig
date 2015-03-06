@@ -1,0 +1,8 @@
+//
+//  Objective-LevelDB.xcconfig
+//  Objective-LevelDB
+//
+
+CLANG_ENABLE_OBJC_ARC = NO
+HEADER_SEARCH_PATHS = $(inherited) "${SRCROOT}/Libraries/leveldb/include"
+LIBRARY_SEARCH_PATHS = $(inherited) "${SRCROOT}/Libraries/leveldb/"

@@ -13,6 +13,13 @@ Pod::Spec.new do |s|
   s.source       =  { :git => 'https://github.com/matehat/Objective-LevelDB.git', :tag => s.version.to_s, :submodules => true }
 
   s.source_files = 'Classes/*.{h,m,mm}'
-  s.dependency "leveldb-library", "~> 1.18"
   s.requires_arc = false
+
+  s.subspec "leveldb" do |sp|
+    sp.source_files = 'Libraries/leveldb/**/*.h'
+    sp.vendored_libraries = 'Libraries/leveldb/libleveldb.a'
+    sp.header_dir = "leveldb"
+    sp.libraries = 'leveldb'
+  end
+
 end

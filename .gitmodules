@@ -1,0 +1,3 @@
+[submodule "Vendor/google-leveldb"]
+	path = Vendor/google-leveldb
+	url = https://github.com/google/leveldb.git
