@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Objective-LevelDB.podspec">
+      location = "group:Objective-LevelDB+Uber.podspec">
    </FileRef>
    <FileRef
       location = "group:Objective-LevelDB.xcodeproj">
