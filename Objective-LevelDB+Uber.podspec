@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
         sp.source_files         = 'Libraries/leveldb/**/*.h'
         sp.vendored_libraries   = 'Libraries/leveldb/libleveldb.a'
         sp.header_dir           = 'leveldb'
-        sp.libraries            = 'leveldb'
     end
 
 end
